@@ -1,0 +1,157 @@
+let Latest = [ 
+    {"name":"aa",
+    "rating":2.4,
+    "genre":"drama"
+},
+{"name":"ab",
+"rating":2,
+"genre":"drama"
+},
+ {"name":"ac",
+"rating":4,
+"genre":"drama"
+},
+{"name":"ad",
+"rating":2.1,
+"genre":"drama"
+},
+{"name":"ae",
+"rating":4.1,
+"genre":"drama"
+},
+{"name":"af",
+"rating":2.1,
+"genre":"drama"
+},
+{"name":"ag",
+"rating":4.1,
+"genre":"drama"
+}
+
+
+]
+
+let Populer = [ 
+    {"name":"ba",
+    "rating":2.4,
+    "genre":"mystery"
+},
+{"name":"bb",
+"rating":2,
+"genre":"mystery"
+},
+ {"name":"bc",
+"rating":4,
+"genre":"mystery"
+},
+{"name":"bd",
+"rating":2.1,
+"genre":"mystery"
+},
+{"name":"be",
+"rating":4.1,
+"genre":"mystery"
+},
+{"name":"bf",
+"rating":2.1,
+"genre":"mystery"
+},
+{"name":"bg",
+"rating":4.1,
+"genre":"mystery"
+}
+
+]
+let Recommended = [ 
+    {"name":"ca",
+    "rating":2.4,
+    "genre":"comedy"
+},
+{"name":"cb",
+"rating":2,
+"genre":"comedy"
+},
+ {"name":"cc",
+"rating":4,
+"genre":"comedy"
+},
+{"name":"cd",
+"rating":2.1,
+"genre":"comedy"
+},
+{"name":"ce",
+"rating":4.1,
+"genre":"comedy"
+},
+{"name":"cf",
+"rating":2.1,
+"genre":"comedy"
+},
+{"name":"cg",
+"rating":4.1,
+"genre":"comedy"
+}
+
+]
+let Reality = [ 
+    {"name":"da",
+    "rating":2.4,
+    "genre":"reality"
+},
+{"name":"db",
+"rating":2,
+"genre":"reality"
+},
+ {"name":"dc",
+"rating":4,
+"genre":"reality"
+},
+{"name":"dd",
+"rating":2.1,
+"genre":"reality"
+},
+{"name":"de",
+"rating":4.1,
+"genre":"reality"
+},
+{"name":"df",
+"rating":2.1,
+"genre":"reality"
+},
+{"name":"dg",
+"rating":4.1,
+"genre":"reality"
+}
+
+]
+let Romance = [ 
+    {"name":"ea",
+    "rating":2.4,
+    "genre":"romance"
+},
+{"name":"eb",
+"rating":2,
+"genre":"romance"
+},
+ {"name":"ec",
+"rating":4,
+"genre":"romance"
+},
+{"name":"ed",
+"rating":2.1,
+"genre":"romance"
+},
+{"name":"ee",
+"rating":4.1,
+"genre":"romance"
+},
+{"name":"ef",
+"rating":2.1,
+"genre":"romance"
+},
+{"name":"eg",
+"rating":4.1,
+"genre":"romance"
+}
+
+]

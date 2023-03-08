@@ -1,0 +1,171 @@
+#logo
+{
+    height: 45px;
+    width: 160px;
+   
+}
+.drop {
+    color: transparent;
+    margin-top: -14px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+   
+    .nv
+    {background-color: #121926!important;}
+
+    .crowsel
+    { 
+        position: absolute;
+    
+    height: 100%;
+    width: 50%;
+    margin-left: 685px;
+    }
+
+    @media screen and (max-width:1040px){.crowsel
+
+        {display: none;}
+    }
+    @media screen and (max-width:1040px){.imgi 
+        {width: 100%;height:400px ;}
+        
+    }
+    @media screen and (max-width:928px){.imgi 
+        {width: 100%;height:300px ;}
+        
+    }
+    @media screen and (max-width:618px){.imgi 
+        {width: 95%;height:230px ; margin-left: 2.3%;}
+        
+    }
+        
+    
+    
+.dop
+{ width: 100%; height: 100%; border-radius: 20px; 
+}
+.ss
+{ display: inline; 
+   
+
+}
+.ii:hover {
+    transform:scale(1.3);
+    z-index: 2;
+}
+.ii
+{
+    height: 200px;
+    width: 12%;
+    margin-left: 20.7px;
+border-radius: 15px; 
+box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+transition: 0.5s;
+} 
+
+
+.foot
+{     margin-left: 2%;
+    margin-bottom: 1%;}
+    
+   .hh
+   { color: black; margin-top: 30px; 
+margin-left: 50px;
+}
+
+
+.pom
+{font-size: 20px; color: black}
+#footer
+{margin-top: 2%; }
+body
+{background-color:#121926 !important; color: aliceblue !important; }
+.dark-mode{
+    background-color:black !important;
+    color: white!important;}
+
+    #coupon{ 
+        height: 270px;
+        width:60%;
+        background-color:black;
+        color: darkkhaki;
+        margin-left: 20%;
+        position: absolute;
+        z-index: 100;
+        margin-top:-100%;
+        visibility: visible;
+        border-radius: 7px;
+        
+    }
+ .qq
+ { font-size:1.6rem}
+
+@media screen and (max-width:900px){.nav-item {display: list-item;}
+    
+}
+
+ @media screen and  
+    (max-width:1090px){.ii{height: 168px;
+        width: 11.5%;}}
+        
+        @media screen and (max-width:480px) {.ii{  height: 50px;
+            width: 20%;
+            border-radius: 3px;
+            margin-left: 15px;
+            
+        }
+    }
+    @media screen and (max-width:480px){.nn,.n1{ display: none;}}
+
+    @media screen and (max-width:615px){.nn{ display: none;}}
+
+@media screen and (max-width:615px){.ii{ height:125px;
+    width: 13%; margin-left: 1%;}}
+        
+    
+
+    @media screen and (max-width:810px) {.ii{  height: 60px;
+        width: 15%;
+        border-radius: 5px;
+        margin-left: 5%;
+    }
+}
+    @media screen and  
+    (max-width:1000px){.ii{height: 138px;
+        width: 15%; margin-left: 2.5%;}}
+    
+        .hovv:hover { transform:scale(1.3);
+            z-index: 2; display: list-item; }
+            
+           
+            .isa { 
+                    margin-top: 5px;
+                padding: 2px;
+                border-radius: 14px;
+                height: 140px;
+                box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+transition: 0.5s;
+
+            }
+            .isa:hover {   transform:scale(1.3);
+                z-index: 2;
+             }
+             
+             .for { width: 12%; padding: 1%;
+                transition: 0.5s; 
+            
+            }
+            .for:hover { transform:scale(1.3); z-index: 1; text-shadow: 10px ;}
+            
+
+
+       
+       
+        
+    
+ 
+   
+  
