@@ -134,14 +134,14 @@ body
     }
 }
     @media screen and  
-    (max-width:1000px){.ii{height: 138px;
+    (max-width:1000px){.ii{height: 100px;
         width: 15%; margin-left: 2.5%;}}
     
         .hovv:hover { transform:scale(1.3);
             z-index: 2; display: list-item; }
             
            
-            .isa { 
+            .isa {
                     margin-top: 5px;
                 padding: 2px;
                 border-radius: 14px;
@@ -160,6 +160,29 @@ transition: 0.5s;
             }
             .for:hover { transform:scale(1.3); z-index: 1; text-shadow: 10px ;}
             
+            @media screen and (max-width:1229px) {#coupon{ margin-top: -110%;
+              }}
+              @media screen and (max-width:1136px) {#coupon{ margin-top: -115%;
+              }}  
+              @media screen and (max-width:1000px) {#coupon{ margin-top: -171%;
+              }} 
+              @media screen and (max-width:900px) {#coupon{ margin-top: -191%; height: 170px;
+              }}
+              @media screen and (max-width:390px) {#coupon { margin-top: -230%; height: 140px;
+              }} 
+
+              @media screen and (max-width:900px) {.xx{ margin-top: -30px;
+              }} 
+              @media screen and (max-width:600px) {.isa{ height: 90px;
+                border-radius: 5px;
+              }}
+              @media screen and (max-width:380px) {.isa{ height: 80px;
+              }}  
+             
+             
+                
+            
+            
 
 
        
@@ -168,4 +191,3 @@ transition: 0.5s;
     
  
    
-  
