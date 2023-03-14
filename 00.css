@@ -9,7 +9,7 @@
     margin-top: -14px;
     display: flex;
     align-content: center;
-    align-items: center;
+    align-items:stretch;
 }
 
    
@@ -186,6 +186,10 @@ transition: 0.5s;
             @media screen and (max-width:478px) {.for{ width: 18.4%;
             }} 
             @media screen and (max-width:478px) {.do{ display: none;
+            }} 
+            @media screen and (max-width:767px) {.nav-item .dropdown .hovv { display: none; 
+               
+               
             }} 
              
              

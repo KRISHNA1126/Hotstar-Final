@@ -12,10 +12,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -30,127 +33,101 @@
 
 <body class="dark-mode">
   <!-- id="collapsibleNavbar"  -->
-  <!-- collapse navbar-collapse  -->
+  <!-- collapse navbar-collapse  tertiary -->
 
   <header>
-    <nav class="navbar navbar-expand-md  navbar-dark  " style="margin-top: 0px;">
-      <!-- Brand -->
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="image/disney-hotstar-logo.png" alt="Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="drop collapse navbar-collapse" id="collapsibleNavbar">
-        <li class="nav-item dropdown hovv">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="font-family: 'Comfortaa', cursive;color: white; ">TV</b>
-          </a>
-          <div class="dropdown-menu opp">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown hovv">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="font-family: 'Comfortaa', cursive;color: white;">Movies</b>
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
 
-        <li class="nav-item dropdown hovv">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="font-family: 'Comfortaa', cursive;color: white;"> Sports</b>
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown hovv">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="font-family: 'Comfortaa', cursive;color: white; ">Disney+</b>
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="font-family: 'Comfortaa', cursive;">Light dark-mode</b>
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><button onclick="myFunction()" class="btn btn-info">Dark mode</button></a>
+    <nav class="navbar navbar-expand-lg bg-body-dark">
+      <div class="container-fluid" style="align-items: flex-end ;">
+        <a class="navbar-brand" href="index.html"><img id="logo" src="image/disney-hotstar-logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                style="font-family: 'Comfortaa', cursive;color: white;">TV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-family: 'Comfortaa', cursive;color: white;">Movies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                style="font-family: 'Comfortaa', cursive;color: white;">
+                Sports
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" style="font-family: 'Comfortaa', cursive;color: white;">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#" style="font-family: 'Comfortaa', cursive;color: white;">Another
+                    action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#" style="font-family: 'Comfortaa', cursive;color: white;">Something
+                    else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" style="font-family: 'Comfortaa', cursive;color: white;">Disney+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" style="color: goldenrod;font-family: 'Julee', cursive; font-size: larger;
+              ">KiDS</a>
+            </li>
+          </ul>
+          <form class="d-flex" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search"
+              style=" position: relative; background-color: transparent!important; border: transparent; color: white;">
+            <button class="btn " type="submit">&#128269;</button>
 
-          </div>
-        </li> -->
-        <li class="nav-item hovv " style="margin-top: -3px;">
-          <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
-            <b style="color: goldenrod;font-family: 'Julee', cursive; font-size: larger;
-            ">KiDS</b>
-          </a>
+            <button class="btn btn-dark" style="font-family: 'Comfortaa', cursive;">LOGIN</button>
 
 
+            <button type="button" class="btn btn-outline-secondary" onclick="myFunction()" style="margin-left: 5px
+             ;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+                <path
+                  d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+                </path>
+              </svg>
+              <span class="visually-hidden">Button</span>
+            </button>
 
-          <!-- <li class="nav-item " style=" width: 22%;
-        margin-left: 27%;">
-          <a class="nav-link " href="#" id="navbardrop">
-            <form class="form-inline" action="/action_page.php" style="    margin-right: 100px;">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search"
-                style=" position: relative; background-color: transparent!important;">
-              <button class="btn " type="submit" style="margin-left: 163px;
-                        position: absolute;">&#128269;</button>
-            </form>
-          </a>
 
-        </li>
+            <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
 
-        <li class="nav-item " style="
-    margin-left: -1%;
-    width: 12%;">
-          <a class="nav-link " href="#" id="navbardrop">
-            <button class="btn btn-primary" style=" font-family: 'Prompt', sans-serif;"> subscribe</button>
-          </a>
+        </div>
 
-        </li>
-        <li class="nav-item " style= "margin-left: -1%;">
-          <a class="nav-link " href="#" id="navbardrop"
-            style="  color: white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-            <B>LOGIN</B>
-          </a>
-
-        </li> -->
-
+      </div>
     </nav>
   </header>
 
   <main class="">
     <div class="vid">
-      <div><video src="wednesday/Wednesday.S01E04.720p,x264.Hindi.English.Msubs.TheMoviesFlix.co.mkv"  style="width:100%;"controls poster="oo/Wednesday-Addams-_-Title-Sequence-_-Netflix-0-56-screenshot-1200x675.jpg" ></video>
+      <div><video src="wednesday/Wednesday.S01E01.720p,x264.Hindi.English.Msubs.TheMoviesFlix.co.mkv"  style="width:100%;"controls poster="oo/Wednesday-Addams-_-Title-Sequence-_-Netflix-0-56-screenshot-1200x675.jpg" ></video>
       </div>
         <div class="summery" style="padding: 1%; ">
-          <span >Wednesday Episode-4</span>
-        
+          <span >Wednesday Ep-4</span>
+         
         </div>
         <hr>
         <span style="font-size: 150%;margin: left 1%;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Episodes</span>
         <div>
-          <a href="card.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.1"></a>
+          <a href="card.html"><img class="for doo" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.1"></a>
           <a href="w2.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.2"></a>
           <a href="w3.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.3"></a>
           <a href="w4.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.4"></a>
-          <img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.5" >
-          <img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.6" >
-          <img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.7" >
-          <img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.8" >
+          <a href="w5.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.5"></a>
+          <a href="w6.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.6"></a>
+          <a href="w7.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.7"></a>
+          <a href="w8.html"><img class="for" src="oo/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="" title="Episode no.8"></a>
          
         </div>
 
@@ -162,9 +139,9 @@
           <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
           <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
           <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
-          <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
-          <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
-          <img class="for" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
+          <img class="for do" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
+          <img class="for do" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
+          <img class="for doo" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba" alt="">
         </div>
 
     
