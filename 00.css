@@ -1,7 +1,7 @@
 #logo
 {
-    height: 45px;
-    width: 160px;
+    height: 40px;
+    width: 150px;
    
 }
 .drop {
@@ -88,7 +88,7 @@ body
     color: white!important;}
 
     #coupon{ 
-        height: 270px;
+        height: 190px;
         width:60%;
         background-color:black;
         color: darkkhaki;
@@ -166,12 +166,12 @@ transition: 0.5s;
               }}  
               @media screen and (max-width:1000px) {#coupon{ margin-top: -171%;
               }} 
-              @media screen and (max-width:900px) {#coupon{ margin-top: -191%; height: 170px;
+              @media screen and (max-width:900px) {#coupon{ margin-top: -191%; height: 160px;
               }}
               @media screen and (max-width:390px) {#coupon { margin-top: -230%; height: 140px;
               }} 
 
-              @media screen and (max-width:900px) {.xx{ margin-top: -30px;
+              @media screen and (max-width:900px) {.xx{ margin-top: -10px;
               }} 
               @media screen and (max-width:600px) {.isa{ height: 90px;
                 border-radius: 5px;
